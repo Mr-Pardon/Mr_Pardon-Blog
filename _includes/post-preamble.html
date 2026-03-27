@@ -1,0 +1,6 @@
+{% assign preamble = site.data.post_injection.preamble %}
+{% if page.preamble != false and preamble and preamble.enabled != false and preamble.content %}
+  <section class="post-injection post-preamble mb-4">
+    {{ preamble.content | markdownify }}
+  </section>
+{% endif %}

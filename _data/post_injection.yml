@@ -1,0 +1,26 @@
+preamble:
+  enabled: true
+  content: |
+    > 注：  
+    > 本专栏基于作者当前阶段的理解进行整理与表达。  
+    > 如有疏漏或不准确之处，欢迎反馈与交流：[Issues](https://github.com/Mr-Pardon/Mr_Pardon.github.io/issues)  
+    > 在此表示感谢。
+
+postscript:
+  enabled: true
+  content: |
+    ---
+    <br>
+
+    > 🚀 **Hello！看一下作者的其他开源项目！**
+    >
+    > 👉 [**@ws-flow/client**](https://github.com/Mr-Pardon/ws-flow-client)
+    >
+    > 一个面向事件流的 WebSocket 客户端框架，尝试把通信过程组织为一种可组合的“流”结构。
+    >
+    > - 将不同通信方式（请求 / 推送）统合到同一模型之中
+    > - 通过事件订阅与规则路由从数据流中获取数据
+    > - 以流式任务的方式处理持续到达的数据
+    > - 构建可拓展的中间件管线灵活调整通信逻辑
+    >
+    > 如果你正在做实时系统或复杂通信层，可能对你有所帮助。

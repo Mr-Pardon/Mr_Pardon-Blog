@@ -1,0 +1,6 @@
+{% assign postscript = site.data.post_injection.postscript %}
+{% if page.postscript != false and postscript and postscript.enabled != false and postscript.content %}
+  <section class="post-injection post-postscript mt-5">
+    {{ postscript.content | markdownify }}
+  </section>
+{% endif %}
